@@ -256,6 +256,7 @@ our plant related style */
       }
 
       .overlayed-text{
+        width: 830px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -266,14 +267,28 @@ our plant related style */
 
       }
       .overlayed-text h3{
+       
         font-size: 3rem;
         font-weight: 500;
       }
-      .hudai input{
-        
-
-      }
-
+  
+    
+    .hudai input {
+        padding: 10px;
+        /* border-radius: 5px; */
+        border: none;
+        width: 80%;
+    }
+    
+    .btn-sec {
+        padding: 10px 20px;
+        background-color: #ff900e;
+        color: white;
+        border: none;
+       
+        cursor: pointer;
+        width: 20%;
+    }
       
      
 /* mobinle responsive */
@@ -302,6 +317,31 @@ our plant related style */
    .trust-badge{
     visibility: hidden;
    }
+   .bg-box img{
+    height: 350px;
+    object-fit: cover;
+   }
+   .overlayed-text h3{
+    font-size: 2rem;
+   }
+   .overlayed-text {
+    padding: 0 15px; /* prevent text from hugging the edges */
+    top: 45%;
+    width: 100%;
+  }
+  .hudai{
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    
+  }
+ .hudai input{
+    width: 70%;
+ }
+ .btn-sec{
+    width: 30%;
+ }
+ 
 }
 
 
