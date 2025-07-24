@@ -190,19 +190,92 @@ our plant related style */
 
 /* image container style */
 
-.img-container{
+/* .img-container{
     max-width: 1140px;
+    max-height: 450px;
     margin: 120px auto;
-    justify-content: center;
+    gap: 15px;
+ 
 }
-.img-container{
+.left-imgs, .right-imgs {
+    flex: -1;
+  }
+  
+  .left-imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .left-imgs img,
+  .right-imgs img {
+    border-radius: 8px;
     width: 100%;
-}
+    height: 100%;
+   
+  }
+  
+  .left-imgs img {
+   
+    height: 50%; /* So they split the column equally */
+  
+    .img-container {
+        display: flex;
+        max-width: 1140px;
+        margin: 120px auto;
+        gap: 15px;
+      }
+      
+      .left-imgs,
+      .right-imgs {
+        flex: -1;
+      }
+      
+      .left-imgs {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      
+      .img-box {
+        position: relative;
+        height: 100%;
+       
+        
+      }
+      
+      .img-box img {
+        border-radius: 8px;
+        width: 100%;
+        height: 100%;
 
-
-
-
+        filter: brightness(50%);
+      
+      
+      }
+      
+      /* Dimming effect */
+     
+      /* Text overlay */
+      .overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        z-index: 2;
+        /* pointer-events: none; So hover still triggers image */
+      }
+      .text-sec{
+        color: white;
+      }
+      
+   
 /* mobinle responsive */
+
+
+
 
 @media screen and (max-width:576px){
 
@@ -219,7 +292,7 @@ our plant related style */
     grid-template-columns: repeat(2,1fr);
    }
 
-   .main-banner{
+   .main-banner,.img-container{
     flex-direction: column;
    }
 }
