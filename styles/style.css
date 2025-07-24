@@ -48,6 +48,15 @@
     list-style: none;
     margin-right: 30px;
 }
+.mar-bot{
+    list-style: none;
+    margin-bottom: 30px;
+
+}
+.mar-right{
+    margin-right: 24px;
+
+}
 
     .nav-link{
 
@@ -60,6 +69,8 @@
     .linkgula{
         justify-content: space-evenly;
        align-items: center;
+       margin-right: 40px;
+       
     }
 
 
@@ -289,60 +300,85 @@ our plant related style */
         cursor: pointer;
         width: 20%;
     }
-      
+
+
+    /* footer related style */
+
+
+    .footer-container{
+        max-width: 1120px;
+        margin: 50px auto;
+        justify-content: space-between;
+    }
+    .start-footer{
+        width: 359px;
+    }
+    .start-footer p{
+        font-size: 1.3rem;
+        font-weight: 400;
+
+    }
      
 /* mobinle responsive */
-
-
 
 
 @media screen and (max-width:576px){
 
 
-   .nav-links{
-    visibility: hidden;
+  .nav-links{
+   /* visibility: hidden; */
+   display: none;
 
-   }
-
-   .intro{
-    flex-direction: column-reverse;
-   }
-   .ourplants-cart{
-    grid-template-columns: repeat(2,1fr);
-   }
-
-   .main-banner,.img-container{
-    flex-direction: column;
-   }
-   .trust-badge{
-    visibility: hidden;
-   }
-   .bg-box img{
-    height: 350px;
-    object-fit: cover;
-   }
-   .overlayed-text h3{
-    font-size: 2rem;
-   }
-   .overlayed-text {
-    padding: 0 15px; /* prevent text from hugging the edges */
-    top: 45%;
-    width: 100%;
   }
-  .hudai{
-    width: 90%;
-    max-width: 400px;
-    margin: 0 auto;
-    
+
+  .intro{
+   flex-direction: column-reverse;
   }
- .hudai input{
-    width: 70%;
+  .ourplants-cart{
+   grid-template-columns: repeat(2,1fr);
+  }
+
+  .main-banner,.img-container, .footer-container{
+   flex-direction: column;
+  }
+  .trust-badge{
+   display: none;
+  }
+  .bg-box img{
+   height: 350px;
+   object-fit: cover;
+  }
+  .overlayed-text h3{
+   font-size: 2rem;
+  }
+  .overlayed-text {
+   padding: 0 15px; /* prevent text from hugging the edges */
+   top: 45%;
+   width: 100%;
  }
- .btn-sec{
-    width: 30%;
+ .hudai{
+   width: 90%;
+   max-width: 400px;
+   margin: 0 auto;
+   
  }
- 
+.hudai input{
+   width: 70%;
 }
+.btn-sec{
+   width: 30%;
+}
+.first-links,.second-links{
+   padding-left: 0px;
+   
+}
+
+}
+
+
+
+
+
 
 
     
