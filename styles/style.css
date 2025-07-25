@@ -69,7 +69,7 @@
     .linkgula{
         justify-content: space-evenly;
        align-items: center;
-       margin-right: 40px;
+       margin-right: 30px;
        
     }
 
@@ -86,19 +86,22 @@ second part intro */
     
 }
 .intro-written{
-    padding-top: 162px;
+
+   padding-top: 162px;
+   
+    width: 50%;
     
 }
 .intro-title{
    
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 500;
 }
 
 .intro-img{
-    padding-top: 100px;
+    padding-top: 106px;
     
-    width: 100%;
+    width: 50%;
 }
 
 /* 
@@ -317,12 +320,28 @@ our plant related style */
         font-size: 1.3rem;
         font-weight: 400;
 
+
     }
-     
+
+    .icon-size{
+      width: 36px;
+      height: 36px;
+    }
+    .icon-size-x{
+      width: 32px;
+      height: 32px;
+    }
+
+   
 /* mobinle responsive */
 
 
 @media screen and (max-width:576px){
+  body{
+    padding-left: 16px;
+  }
+
+ 
 
 
   .nav-links{
@@ -333,13 +352,50 @@ our plant related style */
 
   .intro{
    flex-direction: column-reverse;
+   /* margin: 0 auto; */
+   /* margin-left: auto; */
+   margin: 50px auto;
+   margin-bottom: 0px;
   }
+
+  .intro-written{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+   
+  }
+  .intro-img{
+    width: 100%;
+  }
+.ourplants{
+  margin-top: 0px;
+}
+ 
   .ourplants-cart{
    grid-template-columns: repeat(2,1fr);
   }
 
   .main-banner,.img-container, .footer-container{
    flex-direction: column;
+  }
+  .main-banner{
+    margin-bottom: 0px;
+  }
+  .img-container{
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .latest-deal{
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+  }
+  .main-banner-des{
+    padding-left: 30px;
+  }
+  .deal-title{
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
   .trust-badge{
    display: none;
@@ -368,7 +424,7 @@ our plant related style */
 .btn-sec{
    width: 30%;
 }
-.first-links,.second-links{
+.first-links ul,.second-links ul{
    padding-left: 0px;
    
 }
