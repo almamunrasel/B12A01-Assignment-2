@@ -103,6 +103,9 @@ second part intro */
     
     width: 50%;
 }
+.intro-img img{
+  width: 100%;
+}
 
 /* 
 our plant related style */
@@ -173,19 +176,23 @@ our plant related style */
 }
 
 .main-banner-img{
-    
-   
+  padding-top: 30px;
+    width: 100%;
     border-radius: 8px;
     
     
 }
 .main-banner-images{
+   
+    width: 50%;
+   
     position: relative;
 }
 .trust-badge{
     width: 246px;
     height: 246px;
 }
+
 .inner-img{
     position: absolute;
     top: -110px;
@@ -343,6 +350,8 @@ our plant related style */
 
  
 
+ 
+
 
   .nav-links{
    /* visibility: hidden; */
@@ -354,6 +363,7 @@ our plant related style */
    flex-direction: column-reverse;
    /* margin: 0 auto; */
    /* margin-left: auto; */
+   align-items: center;
    margin: 50px auto;
    margin-bottom: 0px;
   }
@@ -365,7 +375,10 @@ our plant related style */
    
   }
   .intro-img{
+   
     width: 100%;
+    height: 100%;
+    display: block;
   }
 .ourplants{
   margin-top: 0px;
@@ -392,6 +405,9 @@ our plant related style */
   }
   .main-banner-des{
     padding-left: 30px;
+  }
+  .main-banner-images{
+    width: 100%;
   }
   .deal-title{
     margin-top: 25px;
